@@ -814,7 +814,7 @@ padding: 0; }
 /*.bs{box-shadow: 0 4px 10px rgba(0,0,0,0.43);}*/
 .bs{box-shadow: 0 3px 10px rgba(0,0,0,0.43);}
 
-
+.b-s-n{box-shadow: none !important;}
 
 
 input[type="date"]::-webkit-calendar-picker-indicator,input[type="date"]::-webkit-calendar-picker-indicator:hover {
@@ -2113,6 +2113,7 @@ input.cmn-toggle-round-flat1:checked + label:after
     border: 1px solid #EEEEEE;
     margin-left: 6%;
     filter: blur(2px);
+    cursor: pointer;
 }
 .active-block .block-header{ background: #87212e; color: #fff;}
 .active-block .price{ color:#45BA76;}
@@ -2454,7 +2455,7 @@ border-style: dashed;  }
 .modal-btn{
 	border-radius: 1.5px;
   background-image: linear-gradient(to right, #64ffda, #4db6ac);
-  padding-left: 7px 90px !important;
+  padding: 7px 52px !important;
   border:none;
   color: white !important;
 }
